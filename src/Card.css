@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    text-align: center;
+}
+
+.card_image {
+    height: 12rem;
+}
+
+.card_title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card_description {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.6rem 1.875rem;
+    
+}
+
+.card_link {
+    margin-bottom: 2rem;
+
+}

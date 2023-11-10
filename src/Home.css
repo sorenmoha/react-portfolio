@@ -1,0 +1,21 @@
+
+.sitebanner {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.card_wrapper {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,
+    minmax(12rem, 16rem));
+    gap: 8rem;
+    justify-content: center;
+   
+}
+
+.welcomemessage {
+    margin-top: 2.5rem;
+    text-align: center;
+    }
